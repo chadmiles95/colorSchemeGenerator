@@ -1,0 +1,89 @@
+
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+#colorPicker{
+    width: 5em;
+    height: 4em;
+}
+    
+#getColorButton{
+    padding: 1em;
+    color: black;
+    background-color: white;
+    border-radius: 7%
+}
+
+#schemeSelect{
+    padding: 1em 1em 1em .3em;
+    text-align: left;
+    margin: 0;
+    border-radius: 7%;
+}
+
+#schemeSelect option{
+    text-align: left;
+}
+
+#main{
+    margin: 0 10em;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1em 0;
+}
+
+section{
+    margin: 0;
+}
+
+#colorScheme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+        
+.colorBoxContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.colorBox {
+            
+    padding: 15em 5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    border: 1px solid #000;
+}
+        
+html, body {
+    color:#374151;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hexText {
+    cursor: pointer;
+}
+
+.hexText.clicked {
+    background-color: #ddd; /* Add a background color to indicate selection */
+}

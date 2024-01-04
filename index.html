@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Sevillana&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section>
+        <section id ="main">
+        <label for ="colorPicker"></label>
+        <input type="color" id ="colorPicker"></input>
+        <label for ="schemeSelect"> </label>
+        <select id ="schemeSelect" > 
+            <option value ="monochrome">Monochrome</option>
+            <option value ="monochrome-dark">Monochrome-dark</option>
+            <option value ="monochrome-light">Monochrome-light</option>
+            <option value ="analogic">Analogic</option>
+            <option value ="complement">Complement</option>
+            <option value ="analogic-complement">Analogic-Complement</option>
+            <option value ="triad">Triad</option>
+            <option value ="quad">Quad</option>
+        </select>
+        
+     <button id = "getColorButton" onclick = "generateColorScheme()">Get Color Scheme</button>
+     </section>
+            <div id = "colorScheme"></div>
+     </section>   
+            
+        <script src="index.js"></script>
+    </body>
+</html>
